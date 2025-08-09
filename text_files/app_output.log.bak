@@ -3,5 +3,5 @@
 [ERROR] Missing config file
 [INFO] Attempting to recover
 [WARN] Using default settings
-[FAILURE] Connection timeout
+[FAIL] Connection timeout
 [INFO] Shutdown complete
