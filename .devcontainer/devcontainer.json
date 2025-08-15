@@ -2,6 +2,6 @@
     "extensions": [
       "GitHub.github-vscode-theme"
     ],
-    "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc",
-    "postAttachCommand": "git pull --all"
+    "onCreateCommand": "echo PS1='\"$ \"' >> ~/.zshrc",
+    "postAttachCommand": "cp -f .zshrc ~/.zshrc && . ~/.zshrc && git pull --all"
 }
